@@ -1,6 +1,0 @@
-<h1>Showing User </h1>
-<%= @user.username |> String.capitalize %> (<%= @user.id %>)
-
-<hr/>
-
-<%= link "Back", to: user_path(@conn, :index) %>
